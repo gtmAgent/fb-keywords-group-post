@@ -1,0 +1,165 @@
+{
+  "version": 2,
+  "uuid": "c4c5046a-0e11-40c3-a478-74894cf26572",
+  "name": "Facebook关键词小组发帖",
+  "description": "Facebook搜索关键词小组，并在小组内发送文案图文",
+  "deviceType": "browser",
+  "socialCategoryId": 1,
+  "deviceId": 0,
+  "status": "completed",
+  "createdAt": 1788506616,
+  "updatedAt": 1789359488,
+  "routes": [
+    {
+      "index": 1,
+      "routeId": "5d78be7f-a2f9-4e0e-8374-b2bcfa0d346a",
+      "name": "搜索关键词",
+      "description": "",
+      "steps": [
+        {
+          "index": 1,
+          "stepId": "5c10f4f7-20ed-4575-9587-d1622cb4aae3",
+          "title": "打开Facebook主页并且向搜索关键词",
+          "description": "",
+          "capturedAt": 1788506708,
+          "screenshot": "routes/001/steps/001/screenshot.png",
+          "annotatedScreenshot": "routes/001/steps/001/annotated.png",
+          "markup": "routes/001/steps/001/markup.json",
+          "meta": {
+            "browser": {
+              "url": "https://www.facebook.com/",
+              "title": "(20+) Facebook",
+              "pagePath": "routes/001/steps/001/page.html"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "routeId": "bf2b9557-6841-4e9d-9bb9-1ab7b20e6c20",
+      "name": "搜索关键词并且展开小组",
+      "description": "",
+      "steps": [
+        {
+          "index": 1,
+          "stepId": "17caf6ad-d925-46ef-b0d6-51a64cfff892",
+          "title": "搜索指定关键词并点击小组图标",
+          "description": "",
+          "capturedAt": 1788513928,
+          "screenshot": "routes/002/steps/001/screenshot.png",
+          "annotatedScreenshot": "routes/002/steps/001/annotated.png",
+          "markup": "routes/002/steps/001/markup.json",
+          "meta": {
+            "browser": {
+              "url": "https://www.facebook.com/search/groups/?q=%E6%B5%B7%E5%A4%96%E5%BC%95%E6%B5%81",
+              "title": "(20+) 海外引流 - Kết quả tìm kiếm | Facebook",
+              "pagePath": "routes/002/steps/001/page.html"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "routeId": "9549b02b-a85a-4f5d-b841-b4a383ce4d7b",
+      "name": "进入第一个小组发帖",
+      "description": "",
+      "steps": [
+        {
+          "index": 1,
+          "stepId": "00719abe-9f4c-45f6-ae6c-bc57545a2f80",
+          "title": "随机进入点击小组，设置发布多少小组，就一个账号完成几次发布帖子",
+          "description": "",
+          "capturedAt": 1788514054,
+          "screenshot": "routes/003/steps/001/screenshot.png",
+          "annotatedScreenshot": "routes/003/steps/001/annotated.png",
+          "markup": "routes/003/steps/001/markup.json",
+          "meta": {
+            "browser": {
+              "url": "https://www.facebook.com/search/groups?q=%E6%B5%B7%E5%A4%96%E5%BC%95%E6%B5%81",
+              "title": "(20+) 海外引流 - Kết quả tìm kiếm | Facebook",
+              "pagePath": "routes/003/steps/001/page.html"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "routeId": "63d4a1dd-d73a-4562-99ad-d557612205fe",
+      "name": "小组发布帖子",
+      "description": "",
+      "steps": [
+        {
+          "index": 1,
+          "stepId": "e0bae4f0-694f-40b5-b405-44d75e84a5e7",
+          "title": "点击发布帖子",
+          "description": "",
+          "capturedAt": 1788514100,
+          "screenshot": "routes/004/steps/001/screenshot.png",
+          "annotatedScreenshot": "routes/004/steps/001/annotated.png",
+          "markup": "routes/004/steps/001/markup.json",
+          "meta": {
+            "browser": {
+              "url": "https://www.facebook.com/groups/6509959459098038",
+              "title": "(20+) 引流推广 海外获客 海外引粉 引流交流 | Facebook",
+              "pagePath": "routes/004/steps/001/page.html"
+            }
+          }
+        },
+        {
+          "index": 2,
+          "stepId": "712cb0da-847c-4fe2-98de-c1bf67547f33",
+          "title": "提示公开帖子就填写文案、视频/图片，并且按照填写的发布出去，否则退出跳过这个小组",
+          "description": "",
+          "capturedAt": 1788514240,
+          "screenshot": "routes/004/steps/002/screenshot.png",
+          "annotatedScreenshot": "routes/004/steps/002/annotated.png",
+          "markup": "routes/004/steps/002/markup.json",
+          "meta": {
+            "browser": {
+              "url": "https://www.facebook.com/groups/6509959459098038",
+              "title": "(20+) 引流推广 海外获客 海外引粉 引流交流 | Facebook",
+              "pagePath": "routes/004/steps/002/page.html"
+            }
+          }
+        },
+        {
+          "index": 3,
+          "stepId": "96310f3a-8479-4fdc-89a5-058ea8cc7570",
+          "title": "如果没有发布按钮就跳过，换下一个小组",
+          "description": "",
+          "capturedAt": 1788514500,
+          "screenshot": "routes/004/steps/003/screenshot.png",
+          "annotatedScreenshot": "routes/004/steps/003/annotated.png",
+          "markup": "routes/004/steps/003/markup.json",
+          "meta": {
+            "browser": {
+              "url": "https://www.facebook.com/groups/630080544499714",
+              "title": "(20+) 国际贸易商业信息资源交流_International trade exchanges | Facebook",
+              "pagePath": "routes/004/steps/003/page.html"
+            }
+          }
+        },
+        {
+          "index": 4,
+          "stepId": "f47f1f3d-3689-4e7d-968a-f90e4e7c611d",
+          "title": "页面往下划，并且随机进入一个小组进行发帖，例如设置5个小组发帖，就随机点击5个小组进去发布帖子，完成发布任务",
+          "description": "",
+          "capturedAt": 1788514937,
+          "screenshot": "routes/004/steps/004/screenshot.png",
+          "annotatedScreenshot": "routes/004/steps/004/annotated.png",
+          "markup": "routes/004/steps/004/markup.json",
+          "meta": {
+            "browser": {
+              "url": "https://www.facebook.com/search/groups?q=%E6%B5%B7%E5%A4%96%E5%BC%95%E6%B5%81",
+              "title": "(20+) 海外引流 - Kết quả tìm kiếm | Facebook",
+              "pagePath": "routes/004/steps/004/page.html"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
