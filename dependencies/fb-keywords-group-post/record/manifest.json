@@ -1,14 +1,13 @@
 {
   "version": 2,
-  "uuid": "c4c5046a-0e11-40c3-a478-74894cf26572",
+  "uuid": "9886f406-4a5a-452b-b9ce-18f55294a0a6",
   "name": "Facebook关键词小组发帖",
   "description": "Facebook搜索关键词小组，并在小组内发送文案图文",
   "deviceType": "browser",
   "socialCategoryId": 1,
   "deviceId": 0,
-  "status": "completed",
   "createdAt": 1788506616,
-  "updatedAt": 1789359488,
+  "updatedAt": 1792390491,
   "routes": [
     {
       "index": 1,

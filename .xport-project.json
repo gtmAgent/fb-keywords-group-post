@@ -1,34 +1,14 @@
 {
   "format": "xport-github-project",
   "formatVersion": 1,
-  "kind": "automation",
-  "exportedAt": 1792056004,
-  "project": {
-    "label": "fb-keywords-group-post",
-    "name": "Facebook关键词小组发帖",
-    "target": "browser",
-    "version": "1.2.6"
-  },
-  "deviceTargets": [
-    "browser",
-    "android",
-    "ios"
-  ],
-  "socialCategory": {
-    "sourceId": 1,
-    "sourceUid": 0,
-    "name": "Facebook",
-    "icon": "social/774f5503-1c13-4dc5-b966-243db314f6dd.svg",
-    "websiteDomain": "https://www.facebook.com",
-    "androidPackage": "com.facebook.katana",
-    "iosPackage": "com.facebook.Facebook"
-  },
-  "record": {
-    "uuid": "c4c5046a-0e11-40c3-a478-74894cf26572",
-    "name": "Facebook关键词小组发帖",
-    "description": "Facebook搜索关键词小组，并在小组内发送文案图文",
-    "deviceType": "browser",
-    "updateAt": 1789359488,
-    "contentMd5": "b90016bc2de89139ac0765c5ba906cb6"
+  "kind": "workflow",
+  "exportedAt": 1793267607,
+  "workflow": {
+    "cmd": "fb-check-keywords-groud-post",
+    "name": "FB巡检+关键词小组发帖",
+    "allowedAutomationCmds": [
+      "fb-auto-check",
+      "fb-keywords-group-post"
+    ]
   }
 }

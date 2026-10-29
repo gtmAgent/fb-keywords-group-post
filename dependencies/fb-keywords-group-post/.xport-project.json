@@ -1,0 +1,34 @@
+{
+  "format": "xport-github-project",
+  "formatVersion": 1,
+  "kind": "automation",
+  "exportedAt": 1793267607,
+  "project": {
+    "label": "fb-keywords-group-post",
+    "name": "Facebook关键词小组发帖",
+    "target": "browser",
+    "version": "1.2.7"
+  },
+  "deviceTargets": [
+    "browser",
+    "android",
+    "ios"
+  ],
+  "socialCategory": {
+    "sourceId": 1,
+    "sourceUid": 0,
+    "name": "Facebook",
+    "icon": "social/774f5503-1c13-4dc5-b966-243db314f6dd.svg",
+    "websiteDomain": "https://www.facebook.com",
+    "androidPackage": "com.facebook.katana",
+    "iosPackage": "com.facebook.Facebook"
+  },
+  "record": {
+    "uuid": "9886f406-4a5a-452b-b9ce-18f55294a0a6",
+    "name": "Facebook关键词小组发帖",
+    "description": "Facebook搜索关键词小组，并在小组内发送文案图文",
+    "deviceType": "browser",
+    "updateAt": 1792390491,
+    "contentMd5": "b90016bc2de89139ac0765c5ba906cb6"
+  }
+}
